@@ -1,0 +1,27 @@
+
+# Project1 API Endpoints
+
+## Get User
+GET http://localhost:3000/users/67ccc0ff01ef29b3c7062449
+
+## Create User
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+    "name": "Hello",
+    "email": "test@test.com"
+}
+
+## Update User
+PUT http://localhost:3000/users/67ccc0ff01ef29b3c7062449
+Content-Type: application/json
+
+{
+    "name": "Hello",
+    "email": "test@test.com"
+}
+
+## Delete User
+DELETE http://localhost:3000/users/67ccc0ff01ef29b3c7062449
+
